@@ -2,21 +2,21 @@
 export const sliderItems = [
     {
         id: 1,
-        img: require("./assests/slider1.jpg"),
+        img: require("./assests/slider1.png"),
         title: "SUMMER SALE",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg: "f5fafd",
     },
     {
         id: 2,
-        img: "https://i.ibb.co/DG69bQ4/2.png",
+        img: require("./assests/slider2.png"),
         title: "AUTUMN COLLECTION",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg: "fcf1ed",
     },
     {
         id: 3,
-        img: "https://i.ibb.co/cXFnLLV/3.png",
+        img: require("./assests/slider3.png"),
         title: "LOUNGEWEAR LOVE",
         desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
         bg: "fbf0f4",
@@ -25,12 +25,12 @@ export const sliderItems = [
 export const categories = [
     {
         id: 1,
-        img: "https://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: require("./assests/categories1.webp"),
         title: "SHIRT STYLE!",
     },
     {
         id: 2,
-        img: "https://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        img: require("./assests/categories2.webp"),
         title: "LOUNGEWEAR LOVE",
     },
     {
@@ -43,7 +43,7 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
-        img: "https://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+        img: require("./assests/pp1.png"),
     },
     {
         id: 2,
@@ -51,7 +51,7 @@ export const popularProducts = [
     },
     {
         id: 3,
-        img: "https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+        img: require("./assests/pp3.png"),
     },
     {
         id: 4,
@@ -59,11 +59,11 @@ export const popularProducts = [
     },
     {
         id: 5,
-        img: "https://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+        img: require("./assests/pp5.png"),
     },
     {
         id: 6,
-        img: "https://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+        img: require("./assests/pp6.png"),
     },
     {
         id: 7,
@@ -71,6 +71,6 @@ export const popularProducts = [
     },
     {
         id: 8,
-        img: "https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+        img: require("./assests/pp8.png"),
     },
 ]
